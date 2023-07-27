@@ -1,0 +1,51 @@
+body{
+    font-family: 'source code pro', calibri, serif;
+    margin:0px;
+    padding: 0px;
+ }
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+ul>li{
+    float: left;}
+li{
+    list-style-type: none;
+}
+ul > li > a{
+    padding: 20% 30%;
+    color:#4e2222;
+}
+ul >li{ float: left;
+position:relative;}
+a {display:inline-block;
+text-decoration:none ;}
+
+li:hover.submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100;
+    left:0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu{
+    display: nome;
+}
+.submenu li{border-bottom:1px solid #ccc ;}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color:#222538;
+    width: 200px;
+}
+.menu:hover{
+   
+    background-color:RGBa(228,77,38,0.15) ;
+}
+.menu.submenu{
+
+    opacity:0.7;
+}
+
+ul >li:hover a {padding :15px 30px 20px 30px ;}
